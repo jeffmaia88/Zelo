@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Zelo.Models
+namespace Zelo.Entities
 {
     public class Veiculo
     {
