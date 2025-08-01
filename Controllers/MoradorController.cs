@@ -6,11 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Zelo.Controllers
 {
-    public class HomeController : Controller
+    public class MoradorController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        
     }
 }
