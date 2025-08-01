@@ -14,6 +14,9 @@ namespace Zelo.Entities
         public string Telefone { get; set; }
         public TipoMorador TipoMorador { get; set; }
         public int ApartamentoId { get; set; }
+        public Apartamento Apartamento { get; set; }
+        public List<Veiculo> Veiculos { get; set; }
+        public List<Vaga> Vagas { get; set; }
 
     }
 }
