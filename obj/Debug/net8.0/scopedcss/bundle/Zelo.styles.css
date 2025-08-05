@@ -1,0 +1,101 @@
+/* _content/Zelo/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-9e35u6soga] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-9e35u6soga] {
+  color: #0077cc;
+}
+
+
+.btn-primary[b-9e35u6soga] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-9e35u6soga],
+.nav-pills .show>.nav-link[b-9e35u6soga] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+.navbar[b-9e35u6soga] {
+  margin-bottom: 0;
+  border: none;
+  min-height: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #3b9539;
+  border-bottom: 2px solid #000000;
+}
+
+.navbar-brand[b-9e35u6soga] {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+
+.navbar .col-2[b-9e35u6soga] {
+  padding-left: 20px;
+  padding-right: 0;
+  background-color: #3b9539;
+}
+
+.border-top[b-9e35u6soga] {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-9e35u6soga] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-9e35u6soga] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-9e35u6soga] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-9e35u6soga] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+
+/* ---------------------- Informações do Usuario e Data Atual ----------------------*/
+
+.user-info[b-9e35u6soga] {
+  margin-right: auto;
+  padding-left: 1rem;
+  max-width: 70%;
+}
+
+@media (min-width: 992px) {
+    .user-info[b-9e35u6soga] {
+        margin-left: 15%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .user-info[b-9e35u6soga] {
+        max-width: 100%;
+        margin-right: 0;
+        padding-left: 0rem;
+    }
+}
+
