@@ -1,6 +1,6 @@
 <ul class="nav flex-column">
     <li class="nav-item mb-2">
-        <a class="nav-link d-flex align-items-center" href="@Url.Action("Index", "Home")">
+        <a class="nav-link d-flex align-items-center" asp-area="" asp-controller="Home" asp-action="Index">
             <ion-icon name="home-outline" class="me-2"></ion-icon> Home
         </a>
     </li>
@@ -10,7 +10,7 @@
         </a>
     </li>
     <li class="nav-item mb-2">
-        <a class="nav-link d-flex align-items-center" href="@Url.Action("Privacy", "Home")">
+        <a class="nav-link d-flex align-items-center" asp-area="" asp-controller="Morador" asp-action="Morador">
             <ion-icon name="person-outline" class="me-2"></ion-icon> Morador
         </a>
     </li>

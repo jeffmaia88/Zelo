@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "z33s8WqB+0satv5XdIRGodrpuKrVhoWErPchY13eItc=",
+  "Hash": "tauVFOWzlrDGpU5HDVfx+miLToMe/fsEvAhIa8PTUs8=",
   "Source": "Zelo",
   "BasePath": "_content/Zelo",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\Users\\jefferson.maia\\Desktop\\Desenvolvimento\\Zelo\\wwwroot\\js\\morador.js",
+      "SourceId": "Zelo",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Users\\jefferson.maia\\Desktop\\Desenvolvimento\\Zelo\\wwwroot\\",
+      "BasePath": "_content/Zelo",
+      "RelativePath": "js/morador.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\morador.js"
     },
     {
       "Identity": "E:\\Users\\jefferson.maia\\Desktop\\Desenvolvimento\\Zelo\\wwwroot\\js\\site.js",

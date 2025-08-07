@@ -12,5 +12,12 @@ namespace Zelo.Controllers
         {
             return View();
         }
+
+        public IActionResult MoradorCreate()
+        {
+            return View();
+        }
+
     }
+        
 }

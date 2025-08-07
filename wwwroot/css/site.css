@@ -42,6 +42,10 @@ ion-icon {
 }
 
 
+.title {
+    background-color: #2a2a3a;
+}
+
 
 
 
@@ -52,6 +56,27 @@ ion-icon {
 
 .card:hover {
     transform: scale(1.05);
+}
+
+/* Headers cards */
+.card-header-add {
+    background-color: #3a7bd5; /* Azul suave */
+    color: #ffffff;
+}
+
+.card-header-edit {
+    background-color: #f39c12; /* Laranja queimado */
+    color: #ffffff;
+}
+
+.card-header-list {
+    background-color: #27ae60; /* Verde escuro */
+    color: #ffffff;
+}
+
+.card-header-delete {
+    background-color: #c0392b; /* Vermelho escuro */
+    color: #ffffff;
 }
 
 
@@ -125,4 +150,10 @@ body.light-mode h5,
 body.light-mode p,
 body.light-mode .dropdown-item-text {
     color: #212529;
+}
+
+
+.icone {
+    font-size: 60px;
+    vertical-align: middle;
 }

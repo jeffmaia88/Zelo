@@ -1,0 +1,95 @@
+@{
+    ViewData["Title"] = "Novo Condômino";
+}
+
+<div class="p-4 title">
+    <h2>Adicionar Condômino</h2>
+</div>
+
+<div class="mt-5 p-3 border border-1 border-danger">
+    <div class="row">
+        <div class="col-md-6">
+            <form>
+                <div class="row mb-4">
+                    <label for="name" class="col-sm-2 col-form-label">Nome: </label>
+                    <div class="col-sm-7">
+                        <input  class="form-control" type="text" id="name" placeholder="Nome Completo">
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <label class="col-sm-2 col-form-label" for="cpf">CPF: </label>
+                    <div class="col-sm-7">
+                        <input class="form-control" type="text" id="cpf" placeholder="cpf">
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <label class="col-sm-2 col-form-label" for="email">Email: </label>
+                    <div class="col-sm-7">
+                        <input class="form-control" type="text" id="email" placeholder="E-mail">
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <label class="col-sm-2 col-form-label" for="phone">Telefone: </label>
+                    <div class="col-sm-7">
+                        <input class="form-control" type="text" id="phone" placeholder="Telefone">
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <label class="col-form-label col-sm-2" for="type">Tipo: </label>
+                    <div class="col-sm-4">
+                        <select class="form-select">
+                            <option selected>Tipo de Condômino</option>
+                            <option value="1">Proprietário</option>
+                            <option value="2">Inquilino</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <label class="col-form-label col-sm-2" for="type">Bloco: </label>
+                            <div class="col-sm-3">
+                                <select class="form-select">
+                                    
+                                </select>
+                            </div>
+                            <label class="col-form-label col-sm-1" for="type">Unidade: </label>  
+                            <div class="col-sm-3 ps-lg-4">                  
+                                <select class="form-select">
+                                </select>                
+                            </div>
+                        </div>                                                                      
+                    </div>
+                </div>
+            </form>
+        </div>                                 
+                
+
+        <div class="col-md-6">
+            <form>
+                <div class="row mb-4">
+                    <label for="name" class="col-sm-1 col-form-label">Nome: </label>
+                    <div class="col-sm-7">
+                        <input  class="form-control" type="text" id="name" placeholder="Nome Completo">
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <label class="col-sm-1 col-form-label" for="cpf">CPF: </label>
+                    <div class="col-sm-7">
+                        <input class="form-control" type="text" id="cpf" placeholder="cpf">
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <label class="col-sm-1 col-form-label" for="email">Email: </label>
+                    <div class="col-sm-7">
+                        <input class="form-control" type="text" id="email" placeholder="E-mail">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
