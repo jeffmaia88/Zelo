@@ -10,6 +10,7 @@
 .bg-aside {
     background-color: #2a2a3a;
 }
+
 /* Offcanvas */
 .offcanvas {
     width: 250px;
@@ -60,22 +61,26 @@ ion-icon {
 
 /* Headers cards */
 .card-header-add {
-    background-color: #3a7bd5; /* Azul suave */
+    background-color: #3a7bd5;
+    /* Azul suave */
     color: #ffffff;
 }
 
 .card-header-edit {
-    background-color: #f39c12; /* Laranja queimado */
+    background-color: #f39c12;
+    /* Laranja queimado */
     color: #ffffff;
 }
 
 .card-header-list {
-    background-color: #27ae60; /* Verde escuro */
+    background-color: #27ae60;
+    /* Verde escuro */
     color: #ffffff;
 }
 
 .card-header-delete {
-    background-color: #c0392b; /* Vermelho escuro */
+    background-color: #c0392b;
+    /* Vermelho escuro */
     color: #ffffff;
 }
 
@@ -156,4 +161,29 @@ body.light-mode .dropdown-item-text {
 .icone {
     font-size: 60px;
     vertical-align: middle;
+}
+
+
+/* --------------------------------- Moradores ----------------------*/
+
+.header-div {
+    border-radius: 5px;
+    padding-left: 1rem;
+    border-color: #c0392b 1px solid;
+    background-color: #3f3f55;
+    width: 35rem;
+}
+
+.card-forms {
+    width: 35rem;
+    color: #000000;
+}
+
+.card-forms:hover {
+    transform: none;
+
+}
+
+.card-forms-header {
+    background-color: #d0d0e2;
 }

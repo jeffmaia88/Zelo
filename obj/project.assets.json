@@ -5299,19 +5299,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jefferson.maia\\.nuget\\packages\\": {}
+    "C:\\Users\\Jefferson\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Users\\jefferson.maia\\Desktop\\Desenvolvimento\\Zelo\\Zelo.csproj",
+      "projectUniqueName": "D:\\Users\\Jefferson\\Desktop\\Desenvolvimento\\Portfolio\\Zelo\\Zelo.csproj",
       "projectName": "Zelo",
-      "projectPath": "E:\\Users\\jefferson.maia\\Desktop\\Desenvolvimento\\Zelo\\Zelo.csproj",
-      "packagesPath": "C:\\Users\\jefferson.maia\\.nuget\\packages\\",
-      "outputPath": "E:\\Users\\jefferson.maia\\Desktop\\Desenvolvimento\\Zelo\\obj\\",
+      "projectPath": "D:\\Users\\Jefferson\\Desktop\\Desenvolvimento\\Portfolio\\Zelo\\Zelo.csproj",
+      "packagesPath": "C:\\Users\\Jefferson\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\Jefferson\\Desktop\\Desenvolvimento\\Portfolio\\Zelo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jefferson.maia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Jefferson\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -5329,11 +5329,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5374,7 +5369,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.119/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
