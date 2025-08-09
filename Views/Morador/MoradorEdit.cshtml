@@ -1,12 +1,29 @@
 @{
-    ViewData["Title"] = "Novo Condômino";
+    ViewData["Title"] = "Editar Condômino";
 }
 
 <div class="p-4 title">
-    <h2>Adicionar Condômino</h2>
+    <h2>Editar Condômino</h2>
 </div>
 
-<div class="mt-5 p-3">
+<div class="row mt-5">
+    <form>
+        <div class="row mb-4">
+            <label for="cpf" class="col-sm-2 col-form-label">Buscar Condômino</label>
+            <div class="col-sm-3">
+                <input class="form-control" type="text" id="cpf" placeholder="Digite o CPF">
+
+            </div>
+            <div class="col-sm-1">
+                <button class="btn btn-primary" type="button" onclick="SearchMorador()">Buscar</button>
+            </div>
+
+        </div>
+    </form>
+</div>
+
+
+<div class="mt-5 p-3" id="EditContainer" hidden>
     <div class="row">
         <div class="col-md-6">
             <form>
@@ -67,7 +84,7 @@
         </div>
 
 
-        <div class="col-md-6 flex-wrap">
+        <div class="col-md-6">
             <div class="header-div">
                 <h5><ion-icon name="car" class="fs-4 pb-1"></ion-icon> Veiculos</h5>
             </div>

@@ -18,6 +18,20 @@ namespace Zelo.Controllers
             return View();
         }
 
+        public IActionResult MoradorEdit()
+        {
+            return View();
+        }
+
+        public IActionResult MoradorList()
+        {
+            return View();
+        }
+        public IActionResult MoradorDelete()
+        {
+            return View();
+        }
+
     }
-        
+
 }

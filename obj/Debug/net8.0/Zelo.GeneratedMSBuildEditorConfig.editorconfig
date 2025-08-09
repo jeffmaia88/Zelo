@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Users\Jefferson\Desktop\Desenvolvimento\Portfolio\Zelo
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Users/Jefferson/Desktop/Desenvolvimento/Portfolio/Zelo/Views/Apartamento/Apartamento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRhbWVudG9cQXBhcnRhbWVudG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Jefferson/Desktop/Desenvolvimento/Portfolio/Zelo/Views/Apartamento/ApartamentoCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRhbWVudG9cQXBhcnRhbWVudG9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Users/Jefferson/Desktop/Desenvolvimento/Portfolio/Zelo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +44,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Users/Jefferson/Desktop/Desenvolvimento/Portfolio/Zelo/Views/Morador/MoradorCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yYWRvclxNb3JhZG9yQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Jefferson/Desktop/Desenvolvimento/Portfolio/Zelo/Views/Morador/MoradorDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yYWRvclxNb3JhZG9yRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Jefferson/Desktop/Desenvolvimento/Portfolio/Zelo/Views/Morador/MoradorEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yYWRvclxNb3JhZG9yRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Jefferson/Desktop/Desenvolvimento/Portfolio/Zelo/Views/Morador/MoradorList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yYWRvclxNb3JhZG9yTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Users/Jefferson/Desktop/Desenvolvimento/Portfolio/Zelo/Views/Shared/Error.cshtml]

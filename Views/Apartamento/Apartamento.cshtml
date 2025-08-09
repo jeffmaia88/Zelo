@@ -1,0 +1,60 @@
+@{
+    ViewData["Title"] = "Condômino";
+}
+
+<div class="p-4 title">
+    <h2>Área da Administração Predial</h2>
+</div>
+
+
+
+<div class="container mt-5 flex-wrap d-flex gap-3">
+
+    <a class="text-decoration-none" asp-area="" asp-controller="Apartamento" asp-action="ApartamentoCreate">
+        <div class="card" style="width: 18rem;" onmouseover="showInfo('add')" onmouseout="resetInfo()">
+            <div class="card-header card-header-add">
+                <h5 class="card-title">Adicionar Novo Bloco</h5>
+            </div>
+            <div class="card-body text-white bg-dark">
+                <ion-icon name="business" class="icone"></ion-icon>
+            </div>
+        </div>
+    </a>
+
+    <a class="text-decoration-none" asp-area="" asp-controller="Morador" asp-action="MoradorEdit">
+        <div class="card" style="width: 18rem;" onmouseover="showInfo('edit')" onmouseout="resetInfo()">
+            <div class="card-header card-header-edit">
+                <h5 class="card-title">Editar Bloco</h5>
+            </div>
+            <div class="card-body text-white bg-dark">
+                <ion-icon name="create-sharp" class="icone"></ion-icon>
+            </div>
+        </div>
+    </a>
+    <div class="card" style="width: 18rem;" onmouseover="showInfo('list')" onmouseout="resetInfo()">
+        <div class="card-header card-header-list">
+            <h5 class="card-title">Listar Blocos</h5>
+        </div>
+        <div class="card-body text-white bg-dark">
+            <ion-icon name="list-sharp" class="icone"></ion-icon>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;" onmouseover="showInfo('delete')" onmouseout="resetInfo()">
+        <div class="card-header card-header-delete">
+            <h5 class="card-title fs-5">Excluir Blocos</h5>
+        </div>
+        <div class="card-body text-white bg-dark">
+            <ion-icon name="trash-sharp" class="icone"></ion-icon>
+        </div>
+    </div>
+
+
+    <div class="mt-4" id="dinamica">
+
+    </div>
+    <div class="col-md-12 mt-4">
+        <h5>Contato</h5>
+        <p>Para mais informações, entre em contato com a administração do condomínio.</p>
+    </div>
+
+</div>

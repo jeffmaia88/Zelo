@@ -171,11 +171,11 @@ body.light-mode .dropdown-item-text {
     padding-left: 1rem;
     border-color: #c0392b 1px solid;
     background-color: #3f3f55;
-    width: 35rem;
+    width: 25rem;
 }
 
 .card-forms {
-    width: 35rem;
+    width: 25rem;
     color: #000000;
 }
 
@@ -186,4 +186,18 @@ body.light-mode .dropdown-item-text {
 
 .card-forms-header {
     background-color: #d0d0e2;
+}
+
+
+@media(max-width: 1024px) {
+
+    .col-veiculo,
+    .col-email,
+    .col-tipo {
+        display: none;
+    }
+
+    table {
+        font-size: small;
+    }
 }

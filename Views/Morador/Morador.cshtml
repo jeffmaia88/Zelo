@@ -21,35 +21,40 @@
         </div>
     </a>
 
-
-    <div class="card" style="width: 18rem;" onmouseover="showInfo('edit')" onmouseout="resetInfo()" >
-        <div class="card-header card-header-edit">
-            <h5 class="card-title">Editar Morador</h5>
+    <a class="text-decoration-none" asp-area="" asp-controller="Morador" asp-action="MoradorEdit">
+        <div class="card" style="width: 18rem;" onmouseover="showInfo('edit')" onmouseout="resetInfo()">
+            <div class="card-header card-header-edit">
+                <h5 class="card-title">Editar Morador</h5>
+            </div>
+            <div class="card-body text-white bg-dark">
+                <ion-icon name="create-sharp" class="icone"></ion-icon>
+            </div>
         </div>
-        <div class="card-body text-white bg-dark">
-            <ion-icon name="create-sharp" class="icone"></ion-icon>
+    </a>
+    <a class="text-decoration-none" asp-area="" asp-controlerr="Morador" asp-action="MoradorList">
+        <div class="card" style="width: 18rem;" onmouseover="showInfo('list')" onmouseout="resetInfo()">
+            <div class="card-header card-header-list">
+                <h5 class="card-title">Listar Moradores</h5>
+            </div>
+            <div class="card-body text-white bg-dark">
+                <ion-icon name="list-sharp" class="icone"></ion-icon>
+            </div>
         </div>
-    </div>
-    <div class="card" style="width: 18rem;" onmouseover="showInfo('list')" onmouseout="resetInfo()">
-        <div class="card-header card-header-list">
-            <h5 class="card-title">Listar Moradores</h5>
+    </a>
+    <a class="text-decoration-none" asp-area="" asp-controller="Morador" asp-action="MoradorDelete">
+        <div class="card" style="width: 18rem;" onmouseover="showInfo('delete')" onmouseout="resetInfo()">
+            <div class="card-header card-header-delete">
+                <h5 class="card-title fs-5">Excluir Morador</h5>
+            </div>
+            <div class="card-body text-white bg-dark">
+                <ion-icon name="trash-sharp" class="icone"></ion-icon>
+            </div>
         </div>
-        <div class="card-body text-white bg-dark">
-            <ion-icon name="list-sharp" class="icone"></ion-icon>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;" onmouseover="showInfo('delete')" onmouseout="resetInfo()">
-        <div class="card-header card-header-delete">
-            <h5 class="card-title fs-5">Excluir Morador</h5>
-        </div>
-        <div class="card-body text-white bg-dark">
-            <ion-icon name="trash-sharp" class="icone"></ion-icon>
-        </div>
-    </div>
+    </a>
 
 
     <div class="mt-4" id="dinamica">
-        
+
     </div>
     <div class="col-md-12 mt-4">
         <h5>Contato</h5>

@@ -102,3 +102,13 @@ addIcon.addEventListener('click', () => {
     });
   });
 });
+
+
+function SearchMorador() {
+  resultado = true
+
+  if (resultado) {
+    const div = document.getElementById("EditContainer");
+    div.removeAttribute("hidden");
+  }
+}
