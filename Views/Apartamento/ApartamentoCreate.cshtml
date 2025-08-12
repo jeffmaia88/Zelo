@@ -1,3 +1,6 @@
+@model Zelo.Models.ApartamentoRequest
+
+
 @{
     ViewData["Title"] = "Novo Bloco";
 }
@@ -9,16 +12,61 @@
 
 <div class="mt-5 p-3">
     <div class="row">
+        
         <div class="col-md-6">
-                <div class="d-flex align-items-center gap-4">
-                    <span class="fs-4">Novo Bloco: </span>
-                    <ion-icon name="add-circle" style="font-size :32px" class="text-primary" id="addBlock"></ion-icon>
-                </div>
+            <div class="d-flex align-items-center gap-4">
+                <span class="fs-4">Novo Apartamento: </span>
+                <ion-icon name="add-circle" style="font-size :32px" class="text-primary"
+                    onclick="ShowApto()"></ion-icon>
+            </div>
 
-                <div class=" d-flex align-items-center mt-5" id="addDiv">
+               @if (ViewBag.Sucesso != null)
+            {
+                <div class="alert alert-primary mt-5">@ViewBag.Sucesso</div>
+            }         
+         
 
-                </div>
-                
+            <div class="mt-5" id="addDiv" hidden>
+                <form asp-action="ApartamentoCreate">
+                    <div class="row mb-4 g-0">
+                        <label asp-for="Numero" class="col-sm-2 col-form-label">Número: </label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" asp-for="Numero" placeholder="nº" id="numero">
+                        </div>
+                    </div>
+
+                    <div class="row mb-4 g-0">
+                        <label asp-for="Bloco" class="col-sm-2 col-form-label">Bloco: </label>
+                        <div class="col-sm-5">
+                            <input asp-for="Bloco" type="text" class="form-control" placeholder="bloco" id="bloco" >
+                        </div>
+                    </div>
+
+                    <div class="row mb-4 g-0">
+                        <label class="col-sm-2 col-form-label" asp-for="Situacao">Situação: </label>
+                        <div class="col-sm-5">
+                            <select class="form-select" asp-for="Situacao" id="situacao">
+                                <option selected>Escolha uma Opção</option>
+                                <option value="0">Ocupado</option>
+                                <option value="1">Desocupado</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4 g-0 ">
+                        <label asp-for="Vaga" class="col-sm-2">Vaga: </label>
+                        <div class="col-sm-2 ">
+                            <input type="checkbox" asp-for="Vaga" class="form-check-input" id="vaga">
+                        </div>
+                    </div>
+
+                    <div class="row mb-4 g-0">
+                        <input type="submit" class="btn btn-success" id="SaveBlock" value="Salvar Apartamento">
+                    </div>
+                </form>
+
+            </div>
+
         </div>
     </div>
 </div>

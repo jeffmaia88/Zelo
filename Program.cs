@@ -1,11 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using Zelo.Context;
+using Zelo.Repositories;
+using Zelo.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<CondominioContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Conexao")));
+
+builder.Services.AddScoped<ApartamentoServices>();
+builder.Services.AddScoped<ApartamentoRepository>();
 
 builder.Services.AddControllersWithViews();
 

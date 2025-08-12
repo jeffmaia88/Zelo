@@ -15,8 +15,7 @@ namespace Zelo.Context
         }
 
         public DbSet<Morador> Moradores { get; set; }
-        public DbSet<Apartamento> Apartamentos { get; set; }
-        public DbSet<Vaga> Vagas { get; set; }
+        public DbSet<Apartamento> Apartamentos { get; set; }    
         public DbSet<Veiculo> Veiculos { get; set; }
     }
 }
