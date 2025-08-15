@@ -22,5 +22,18 @@ namespace Zelo.Repositories
             _context.SaveChanges();
         }
 
+        public Apartamento GetById(int id)
+        {
+            return _context.Apartamentos.FirstOrDefault(a => a.Id == id);
+        }
+
+        public List<Apartamento> GetAll()
+        {
+            return _context.Apartamentos.ToList();
+        }
+
     }
+
+
+
 }

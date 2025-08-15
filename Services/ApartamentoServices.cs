@@ -31,5 +31,10 @@ namespace Zelo.Services
             return Apartamento;
         }
 
+        public List<Apartamento> GetAll()
+        {
+            return _repository.GetAll();
+        }
+
     }
 }

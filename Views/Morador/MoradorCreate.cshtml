@@ -1,3 +1,5 @@
+@model Zelo.Models.MoradorRequest
+
 @{
     ViewData["Title"] = "Novo Condômino";
 }
@@ -9,37 +11,37 @@
 <div class="mt-5 p-3">
     <div class="row">
         <div class="col-md-6">
-            <form>
+            <form asp-action="MoradorCreate">
                 <div class="row mb-4">
                     <label for="name" class="col-sm-2 col-form-label">Nome: </label>
                     <div class="col-sm-7">
-                        <input class="form-control" type="text" id="name" placeholder="Nome Completo">
+                        <input class="form-control" type="text" id="name" placeholder="Nome Completo" asp-for="Nome">
                     </div>
                 </div>
 
                 <div class="row mb-4">
                     <label class="col-sm-2 col-form-label" for="cpf">CPF: </label>
                     <div class="col-sm-7">
-                        <input class="form-control" type="text" id="cpf" placeholder="cpf">
+                        <input class="form-control" type="text" id="cpf" placeholder="cpf" asp-for="Cpf">
                     </div>
                 </div>
 
                 <div class="row mb-4">
                     <label class="col-sm-2 col-form-label" for="email">Email: </label>
                     <div class="col-sm-7">
-                        <input class="form-control" type="text" id="email" placeholder="E-mail">
+                        <input class="form-control" type="text" id="email" placeholder="E-mail" asp-for="Email">
                     </div>
                 </div>
                 <div class="row mb-4">
                     <label class="col-sm-2 col-form-label" for="phone">Telefone: </label>
                     <div class="col-sm-7">
-                        <input class="form-control" type="text" id="phone" placeholder="Telefone">
+                        <input class="form-control" type="text" id="phone" placeholder="Telefone" asp-for="Telefone">
                     </div>
                 </div>
                 <div class="row mb-4">
                     <label class="col-form-label col-sm-2" for="type">Tipo: </label>
                     <div class="col-sm-4">
-                        <select class="form-select">
+                        <select class="form-select" asp-for="TipoMorador">
                             <option selected>Tipo de Condômino</option>
                             <option value="1">Proprietário</option>
                             <option value="2">Inquilino</option>
@@ -51,8 +53,12 @@
                         <div class="row">
                             <label class="col-form-label col-sm-2" for="type">Bloco: </label>
                             <div class="col-sm-3">
-                                <select class="form-select">
-
+                                <select class="form-select" asp-for="ApartamentoId">
+                                    <option value="">Selecione o apartamento</option>
+                                    @foreach (var apt in ViewBag.Apartamentos)
+                                    {
+                                        <option value="@apt.Id">@apt.Descricao</option>
+                                    }
                                 </select>
                             </div>
                             <label class="col-form-label col-sm-1" for="type">Unidade: </label>
@@ -63,9 +69,19 @@
                         </div>
                     </div>
                 </div>
+                <div class="row mt-5">
+                    <div class="col-sm-9 pt-2">
+                        <input type="submit" class="btn btn-success w-100 " value="Salvar Morador">
+                    </div>
+                </div>
             </form>
         </div>
 
+
+        @if (ViewBag.Sucesso != null)
+        {
+            <div class="alert alert-primary mt-5">@ViewBag.Sucesso</div>
+        }
 
         <div class="col-md-6 flex-wrap">
             <div class="header-div">

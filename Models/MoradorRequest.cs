@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Zelo.Models.Enums;
+using Zelo.Models;
+using Zelo.Entities;
 
-namespace Zelo.Entities
+namespace Zelo.Models
 {
-    public class Morador
+    public class MoradorRequest
     {
         public int Id { get; set; }
         public string Nome { get; set; }
@@ -17,7 +19,5 @@ namespace Zelo.Entities
         public int ApartamentoId { get; set; }
         public Apartamento Apartamento { get; set; }
         public List<Veiculo>? Veiculos { get; set; }
-
-
     }
 }

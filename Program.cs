@@ -11,6 +11,8 @@ builder.Services.AddDbContext<CondominioContext>(options =>
 
 builder.Services.AddScoped<ApartamentoServices>();
 builder.Services.AddScoped<ApartamentoRepository>();
+builder.Services.AddScoped<MoradorServices>();
+builder.Services.AddScoped<MoradorRepository>();
 
 builder.Services.AddControllersWithViews();
 
